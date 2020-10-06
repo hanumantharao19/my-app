@@ -2,7 +2,7 @@
 node {
  
    stage('compliepackage'){
-   def mvnHome = tool name: 'M2_HOME', type: 'maven'
+   def mvnHome = tool name: 'maven-mh', type: 'maven'
    sh "${mvnHome}/bin/mvn package"
    }
 	
