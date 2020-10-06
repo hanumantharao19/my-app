@@ -1,9 +1,9 @@
 
 node {
 	
-   stage('gitcheckout')
+	stage('gitcheckout'){
     git 'https://github.com/javahometech/my-app'
- 
+	}
    stage('compliepackage'){
    def mvnHome = tool name: 'maven-mh', type: 'maven'
    sh "${mvnHome}/bin/mvn compile"
