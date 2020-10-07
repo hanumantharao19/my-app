@@ -7,9 +7,6 @@
 	<version>0.0.9-SNAPSHOT</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url><build>
-	
-
-	
    <scm>
    <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
    <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
