@@ -8,21 +8,15 @@
 	<name>my-app</name>
 	<url>http://maven.apache.org</url><build>
 	
+
 	
    <scm>
-    <url>https://github.com/hanumantharao19/my-app.git</url>
-    <connection>scm:git:https://hanumantharao19:haswitha@1986@github.com/hanumantharao19/my-app.git</connection>
-    <developerConnection>scm:git:https://hanumanthrao19:haswitha@1986:@github.com:hanumantharao19/my-app.git</developerConnection>
-    <tag>HEAD</tag>
-   </scm>
-	
- <!--<scm>
    <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
    <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
    <url>https://github.com/hanumantharao19/my-app.git</url>
    <tag>HEAD</tag>
-    </scm> -->
-	
+    </scm> 
+	 
 
 	<dependencies>
 		<dependency>
