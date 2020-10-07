@@ -14,7 +14,7 @@
     <connection>scm:git:git://github.com/hanumantharao19/my-app.git</connection>
     <developerConnection>scm:git:git@github.com:hanumantharao19/my-app.git</developerConnection>
     <tag>HEAD</tag>
-</scm>
+   </scm>
 	
  <!--<scm>
    <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
