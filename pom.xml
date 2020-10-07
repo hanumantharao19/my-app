@@ -15,6 +15,17 @@
    <url>https://github.com/hanumantharao19/my-app.git</url>
    <tag>HEAD</tag>
     </scm> 
+	
+<build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.0-beta-9</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
 
 	<dependencies>
 		<dependency>
