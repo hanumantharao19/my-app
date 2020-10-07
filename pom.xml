@@ -8,9 +8,13 @@
 	<name>my-app</name>
 	<url>http://maven.apache.org</url><build>
 	
-<scm>
-   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
-    </scm>
+	
+   <scm>
+    <url>https://github.com/hanumantharao19/my-app</url>
+    <connection>scm:git:git://github.com/hanumantharao19/my-app.git</connection>
+    <developerConnection>scm:git:git@github.com:hanumantharao19/my-app.git</developerConnection>
+    <tag>HEAD</tag>
+</scm>
 	
  <!--<scm>
    <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
@@ -19,19 +23,6 @@
    <tag>HEAD</tag>
     </scm> -->
 	
-<build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>3.0.0-M1</version>
-      </plugin>
-    </plugins>
-    ...
-  </build>
-	
-	
-
 
 	<dependencies>
 		<dependency>
