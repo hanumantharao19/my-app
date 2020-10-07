@@ -10,10 +10,7 @@
    
 
 <dependencies>
-		<dependency>
-		    <artifactId>poi</artifactId>
-		    <version>3.7</version>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
