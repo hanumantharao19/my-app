@@ -10,7 +10,7 @@
 	
 	
    <scm>
-    <url>https://github.com/hanumantharao19/my-app</url>
+    <url>https://github.com/hanumantharao19/my-app.git</url>
     <connection>scm:git:git://github.com/hanumantharao19/my-app.git</connection>
     <developerConnection>scm:git:git@github.com:hanumantharao19/my-app.git</developerConnection>
     <tag>HEAD</tag>
