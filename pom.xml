@@ -6,7 +6,21 @@
 	<packaging>war</packaging>
 	<version>0.0.9-SNAPSHOT</version>
 	<name>my-app</name>
-	<url>http://maven.apache.org</url>
+	<url>http://maven.apache.org</url><build>
+	
+	
+	
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.0-M1</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
+	
+	
 	
 	
 	<scm>
@@ -16,16 +30,7 @@
    <tag>HEAD</tag>
     </scm> 
 	
-<build>
-  <pluginManagement>
-    <plugins>
-      <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.0-beta-9</version>
-      </plugin>
-    </plugins>
-  </pluginManagement>
-</build>
+
 
 	<dependencies>
 		<dependency>
