@@ -10,9 +10,9 @@
 	
 	
 	<scm>
-   <connection>scm:git:https://github.com/hanumantharao19/hello-world.git</connection>
-   <developerConnection>scm:git:https://github.com:hanumantharao19/hello-world.git</developerConnection>
-   <url>https://github.com/hanumantharao19/hello-world.git</url>
+   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
+   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
+   <url>https://github.com/hanumantharao19/my-app.git</url>
    <tag>HEAD</tag>
     </scm> 
 
