@@ -10,7 +10,19 @@
 	
 	
 	
-  <pluginManagement>
+  
+	
+	
+	
+	
+<scm>
+   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
+   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
+   <url>https://github.com/hanumantharao19/my-app.git</url>
+   <tag>HEAD</tag>
+    </scm>
+	
+<pluginManagement>
     <plugins>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
@@ -20,15 +32,6 @@
   </pluginManagement>
 </build>
 	
-	
-	
-	
-	<scm>
-   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
-   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
-   <url>https://github.com/hanumantharao19/my-app.git</url>
-   <tag>HEAD</tag>
-    </scm> 
 	
 
 
