@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url><build>
    
 
-	<dependencies>
+<dependencies>
 		<dependency>
 		    <artifactId>poi</artifactId>
 		    <version>3.7</version>
@@ -28,7 +28,7 @@
 			<scope>test</scope>
 		</dependency>
 	
-	</dependencies>
+</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
