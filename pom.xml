@@ -9,7 +9,12 @@
 	<url>http://maven.apache.org</url><build>
    
 
-<dependencies>
+     <dependencies>
+	        <dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi</artifactId>
+		    <version>3.7</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -23,7 +28,7 @@
 			<scope>test</scope>
 		</dependency>
 	
-</dependencies>
+     </dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
