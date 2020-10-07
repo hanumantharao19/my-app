@@ -8,12 +8,25 @@
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 	
-<scm>
+<plugin>
+   <artifactId>maven-release-plugin</artifactId>
+   <version>2.5.3</version>
+   <dependencies>
+      <dependency>
+         <groupId>org.apache.maven.scm</groupId>
+         <artifactId>maven-scm-provider-gitexe</artifactId>
+         <version>1.9.5</version>
+      </dependency>
+   </dependencies>
+</plugin>
+	
+<!--<scm>
    <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
    <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
    <url>https://github.com/hanumantharao19/my-app.git</url>
    <tag>HEAD</tag>
- </scm>
+ </scm> -->
+	
 	
 
 	<dependencies>
