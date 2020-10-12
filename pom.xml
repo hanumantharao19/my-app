@@ -7,6 +7,14 @@
 	<version>0.0.8-SNAPSHOT</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
+
+	
+<scm>
+   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
+   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
+   <url>https://github.com/hanumantharao19/my-app.git</url>
+   <tag>HEAD</tag>
+ </scm> 
 	
 <plugin>
    <artifactId>maven-release-plugin</artifactId>
@@ -19,13 +27,6 @@
       </dependency>
    </dependencies>
 </plugin>
-	
-<!--<scm>
-   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
-   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
-   <url>https://github.com/hanumantharao19/my-app.git</url>
-   <tag>HEAD</tag>
- </scm> -->
 	
 	
 
